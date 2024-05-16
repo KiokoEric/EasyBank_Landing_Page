@@ -40,3 +40,6 @@ body {
   color: white;
   padding: 0.5rem 1rem;
 }
+.HeroImage {
+  background-image: url(./assets/bg-intro-desktop.svg);
+}
