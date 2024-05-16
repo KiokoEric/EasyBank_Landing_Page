@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+  width: 0.8rem;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: var(--LimeGreen);
+}
+html::-webkit-scrollbar-track {
+  background-color: var(--White);
+}
+:root {
+
+  /* COLORS */
+  --DarkBlue: hsl(233, 26%, 24%);
+  --LimeGreen: hsl(136, 65%, 51%);
+  --BrightCyan: hsl(192, 70%, 51%);
+  --GrayishBlue: hsl(233, 8%, 62%);
+  --LightGrayishBlue: hsl(220, 16%, 96%);
+  --VeryLightGray: hsl(0, 0%, 98%);
+  --White: hsl(0, 0%, 100%);
+
+}
+body {
+  font-family: 'Instrument Serif', serif;
+  font-size: 18px;
+}
+.Button {
+  background: linear-gradient(90deg, var(--LimeGreen), var(--BrightCyan));
+  border-radius: 30px;
+  color: white;
+  padding: 0.5rem 1rem;
+}
