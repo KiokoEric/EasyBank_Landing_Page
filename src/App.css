@@ -43,3 +43,7 @@ body {
 .HeroImage {
   background-image: url(./assets/bg-intro-desktop.svg);
 }
+#Blog img {
+  border-radius: 3px;
+  height: 200px;
+}
